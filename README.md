@@ -3,7 +3,7 @@
 
 ### Problem Statement
 
-Create an index fund with "m" stocks to track the NASDAQ-100 with "n" stocks, where m << n.
+Create an index fund with "m" stocks to track the NASDAQ-100 index with "n" stocks, where m << n.
 
 Constructing an index fund that tracks a specific broad market index could be done by simply purchasing all n stocks in the index, with the same weights as in the index. However, this approach is impractical (many small positions) and expensive (rebalancing costs may frequently be incurred, price response to trading). An index fund with m stocks, where m is substantially smaller than the size of the target population, n, seems desirable.
 
